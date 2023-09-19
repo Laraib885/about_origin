@@ -42,7 +42,6 @@ font-size: 16px;
 font-weight: 400;
 }
 
-
 /*Navbar*/
 .navbar .container {
     gap: 80px;
@@ -127,17 +126,17 @@ footer .social-btn-anchor{
 
 .btn-primary {
     background: #006CD2;
-    padding: 12px 30px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 30px;
-    gap: 12px;
 }
 
+.btn{
+    border-radius: 30px;
+    padding: 8px 24px;
+}
+
+
+
 .btn-light {
-    border-radius: 500px;
-    padding: 12px 20px;
+   
     gap: 18px;
     background: #FFF;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
@@ -145,16 +144,8 @@ footer .social-btn-anchor{
 }
 
 .btn-secondary {
-    display: flex;
-    padding: 12px 30px;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    border-radius: 50px;
+ 
     background: var(--button-gradient, linear-gradient(93deg, #D7EBFF 3.2%, #EDF6FF 98.54%));
-    color: var(--final-blue, #006CD2);
-    font-size: 16px;
-    font-weight: 600;
 }
 
 .btns-gap {
@@ -246,4 +237,12 @@ img {
     width: auto;
     height: auto;
     max-width: 100%;
+}
+
+.text-color{
+    color:#006CD2;
+}
+
+.text-color:hover{
+    color: #006CD2;
 }
