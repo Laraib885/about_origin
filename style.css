@@ -231,7 +231,7 @@ p {
 
 .container .card a{
    
-padding-top: 40px;
+padding-top: 20px;
 color: #575757;
 font-size: 16px;
 font-weight: 600;
@@ -261,6 +261,7 @@ img {
     width: auto;
     height: auto;
     max-width: 100%;
+    aspect-ratio: 4/3;
 }
 
 .text-color{
