@@ -99,6 +99,30 @@ button .arrow{
 footer{
     background: #E9F4FF;
 }
+/* Initial styling for the underline */
+footer ul li .animated-underline {
+    position: relative;
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Add an invisible pseudo-element for the underline */
+footer ul li .animated-underline::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Adjust the height of the underline as needed */
+    background-color: black; /* Adjust the color as needed */
+    transition: width 0.3s ease; /* Add a smooth transition for the width */
+    transform-origin: left;
+}
+
+/* Apply the animation on hover */
+footer ul li .animated-underline:hover::before {
+    width: 100%; /* Expand the underline to 100% width */
+}
+
 
 footer .social-icons{
     a{
