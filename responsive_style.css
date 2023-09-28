@@ -30,7 +30,9 @@
 }
 
 @media (max-width: 576px) {
- 
+    .navbar .container{
+        gap: 20px;
+    }
     h1 {
       font-size: 36px;
      }
@@ -80,7 +82,7 @@ p {
     padding: 25px 18px;
     border-radius: 22px;
     background: #FFF;
-    margin: 5px;
+    margin: 10px;
 }
 
 .container .card h3{
