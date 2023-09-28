@@ -165,7 +165,14 @@ footer .social-btn-anchor{
     background: #FFF;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
     border-color: transparent;
+    padding: 8px 24px;
+
 }
+
+.btn-primary:hover svg {
+    transform: translateX(5px); /* Move the SVG to the right on hover */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
 
 .btn-secondary {
  

@@ -22,6 +22,9 @@
     h3 {
         font-size: 22px;    
     }
+    .btn-group-vertical>.btn, .btn-group>.btn{
+        flex: none;
+    }
 }
 
 @media (max-width: 576px) {
@@ -53,7 +56,7 @@
 }
 
 .btn-light {
-    padding: 8px 20px;
+    padding: 6px 20px;
 }
 
 .btn-secondary {
@@ -96,6 +99,10 @@ p {
 
 footer .footer-links li{
     padding: 10px 0px;
+}
+
+.btn-group-vertical>.btn, .btn-group>.btn{
+    flex: none;
 }
     
 }
