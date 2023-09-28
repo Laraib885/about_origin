@@ -28,19 +28,17 @@
 }
 
 @media (max-width: 576px) {
-  .row{
-    margin: 3px;
-  }
+ 
     h1 {
       font-size: 36px;
      }
 
     h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
     
     h3 {
-        font-size: 22px;    
+        font-size: 18px;    
     }
 
     .hero-section p {
@@ -72,14 +70,15 @@ p {
 }
 
 .py-100 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .container .card {
     padding: 25px 18px;
     border-radius: 22px;
     background: #FFF;
+    margin: 5px;
 }
 
 .container .card h3{
